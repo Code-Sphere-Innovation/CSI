@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#myVideo {
+    width: 100vw;
+    min-height: 100vh;
+  }
+@media (max-width:720px){
+    #myVideo{
+        width: auto;
+        height: 100vh;
+    }
+}

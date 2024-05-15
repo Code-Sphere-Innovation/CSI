@@ -9,7 +9,21 @@
 #myVideo {
     width: 100vw;
     min-height: 100vh;
-  }
+    position: relative;
+}
+.info-banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-banner h1{
+    font-size: 50px;
+    color: white;
+}
 @media (max-width:720px){
     #myVideo{
         width: auto;
